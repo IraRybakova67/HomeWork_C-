@@ -6,22 +6,7 @@ int num2 = int.Parse(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int num3 = int.Parse(Console.ReadLine());
 int max = num1;
-if (num2 > max)
-{
-max = num2;
-}
-else if (num3 > max)
-    {
-    max = num3;
-    }
-    else
-    {
-    Console.Write($" Максимальным числом является {max}");   
-    }
+if (num2 > max) max = num2;
+if (num3 > max) max = num3;
 Console.Write($" Максимальным числом является {max}");
   
-
-
-
-
-
